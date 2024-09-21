@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="heading">
+            <h1 data-text="Tic Tac Toe...">Tic Tac Toe...</h1>
+        </div>
+        <h2 id="winner"><span id="turn" class="shine"></span><span id="turnText"> - Turn</span></h2>
+        <div class="container">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+        <div class="btn">
+            <button id="reset">Reset</button>
+            <button id="start">Start Game</button>
+            <button id="change">Change Player Name</button>
+        </div>
+    </div>
+
+    <div id="form">
+        <h2>Enter Players Name</h2>
+        <form>
+            <input type="text" id="playerx" placeholder="Player-X name" required autocomplete="off">
+            <input type="text" id="playero" placeholder="Player-O name" required autocomplete="off">
+            <button id="nameBtn" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
