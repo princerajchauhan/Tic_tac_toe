@@ -108,6 +108,7 @@ const checkDraw = () =>{
 reset.addEventListener("click", resetGame)
 function resetGame(){
     playerTurn.innerText = 'X'
+    turn = true
     for(let box of boxes){
         box.innerText = ""
         box.style.backgroundColor = "rgb(106 201 191)"
